@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=devide-width, initial-scale=1.0">
+        <title>Abraão portifólio</title>
+        
+        <!-- normalize lib -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+
+        <!-- font awesome lib -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous"/>  
+
+        <!-- my stylesheet -->
+        <link rel="stylesheet" href="css/style.css">
+
+        <!-- External fonts from google, maybe change this later -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <!--  -->
+        <header>
+           
+            <!--Initial logo, that could be socials or just the name-->
+            <div class="logo">
+                <img src="" alt="">
+            </div>
+          
+            <!--Main navigation for all the content-->
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+        
+            <!--  -->
+            <nav class="nav">
+                <ul class="nav--list">
+                    <li class="nav--item"><a href="index.html" class="nav--link">Home</a></li>
+                    <li class="nav--item"><a href="index.html#services" class="nav--link">My services</a>
+                    <li class="nav--item"><a href="index.html#about" class="nav--link">About me</a></li>
+                    <li class="nav--item"><a href="index.html#work" class="nav--link">My work</a></li>
+                    <li class="nav--item"><a href="index.html#footer" class="nav--link">Contact</a></li>
+                </ul>
+            </nav>
+
+        </header>
+        
+        <!-- Beginning of section: Introduction (section on top) -->
+        <section class="intro">
+            <h1 class="section--title section--title--intro">
+                The title <strong>of my project</strong>
+            </h1>
+            <p class="section--subtitle section--subtitle--intro">A short subtitle</p>
+            <img src="img/portfolio-01.jpg" alt="" class="intro--img">
+        </section>
+        <!--End of section: Introduction-->
+
+        <div class="portfolio-item-individual">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat a felis in tempus. Nunc vitae fringilla turpis, sed tempus ligula. </p>
+            <img src="img/portfolio-05.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat a felis in tempus. Nunc vitae fringilla turpis, sed tempus ligula. Quisque fermentum, dolor sed pulvinar sagittis, sem sem sodales sem, sed laoreet dui elit a mi.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat a felis in tempus. Nunc vitae fringilla turpis, sed tempus ligula. Quisque fermentum, dolor sed pulvinar sagittis, sem sem sodales sem, sed laoreet dui elit a mi.</p>
+        </div>
+
+
+        <!-- Beginning of: footer -->
+        <footer id="footer" class="footer">
+            
+            <!-- email as a link  -->
+            <a href="mailto:abraaojr1996@gmail.com" class="footer--link">abraaojr1996@gmail.com</a>
+
+            <!-- Start of: list of social media icons as links -->
+            <ul class="social--list">    
+                
+                <!-- telegram -->
+                <li class="social--list--item">
+                    <a class="social--list--link" href="https://t.me/abraao_s" target="_blank">
+                        <i class="fab fa-telegram"></i>
+                    </a>
+                </li>
+
+                <!-- twitter -->
+                <li class="social--list--item">
+                    <a href="https://twitter.com/abraao_96" class="social--list--link" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+
+                <!-- instagram -->
+                <li class="social--list--item">
+                    <a href="https://www.instagram.com/braonis.guitarra/" class="social--list--link" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+
+                <!-- github -->
+                <li class="social--list--item">
+                    <a href="http://github.com/Abraao-S" class="social--list--link" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+
+                <!-- linkedin -->
+                <li class="social--list--item">
+                    <a href="https://www.linkedin.com/in/abraao-silva-816675225/" class="social--list--link" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+
+            </ul>
+            <!-- End of: list of social media icons as links -->
+
+        </footer>
+        <!-- End of: footer -->
+        
+        <!-- Script for the hamburger navigation menu on top -->
+        <script src="js/index.js"></script>
+
+    </body>
+</html>

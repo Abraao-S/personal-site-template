@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=devide-width, initial-scale=1.0">
+        <title>Abraão portfolio</title>
+        
+        <!-- normalize lib -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+
+        <!-- font awesome lib -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous"/>  
+
+        <!-- my stylesheet -->
+        <link rel="stylesheet" href="css/style.css">
+
+        <!-- External fonts from google, maybe change this later -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <!--  -->
+        <header>
+           
+            <!--Initial logo that could be socials or just the name or a image -->
+            <!-- <div class="logo">
+                <img src="" alt="">
+            </div> -->
+          
+            <!-- Main navigation for all the content -->
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+        
+            <!-- Navigation list when we click the hamburger -->
+            <nav class="nav">
+                <ul class="nav--list">
+                    <li class="nav--item"><a href="#home" class="nav--link">Home</a></li>
+                    <li class="nav--item"><a href="#services" class="nav--link">My services</a>
+                    <li class="nav--item"><a href="#about" class="nav--link">About me</a></li>
+                    <li class="nav--item"><a href="#work" class="nav--link">My work</a></li>
+                    <li class="nav--item"><a href="#footer" class="nav--link">Contact</a></li>
+                </ul>
+            </nav>
+
+        </header>
+        
+        <!-- Beginning of section: Introduction (section on top) -->
+        <section id="home" class="intro">
+            <h1 class="section--title section--title--intro">
+                Hi, I'm <strong>Abraão</strong>
+            </h1>
+            <p class="section--subtitle section--subtitle--intro">FRONT-END DEV</p>
+            <img class="intro--img" src="img/abraao-photo-01.jpg" alt="a picture of Abraão smilling">
+        </section>
+        <!-- End of section: Introduction -->
+
+        <!-- Beginning of section: What I do -->
+        <section id="services" class="my-services">
+            <h2 class="section--title section--title--services">What I do</h2>
+            <div class="services">
+                
+                <!-- Service 1 -->
+                <div class="service">
+                    <h3>Service 1</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce mattis mi nulla, eget gravida nunc dignissim vitae. Proin nec consectetur nisl. </p>
+                </div>
+                
+                <!-- Service 2 -->
+                <div class="service">
+                    <h3>Service 2</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce mattis mi nulla, eget gravida nunc dignissim vitae. Proin nec consectetur nisl.</p>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="service">
+                    <h3>Service 3</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce mattis mi nulla, eget gravida nunc dignissim vitae. Proin nec consectetur nisl.</p>
+                </div>
+            </div> 
+
+                <!-- button "MY WORK" -->
+                <a href="#work" class="btn">MY WORK</a> 
+
+        </section>
+        <!-- End of section: My services -->
+
+        <!--Beginning of section: About me-->
+        <section id="about" class="about-me">
+            <h2 class="section--title section--title-about">About me</h2>
+            <p class="section--subtitle section--subtitle--about">subtitle for about me section</p>
+            
+            <!-- Content for this section -->
+            <div class="about--me--body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce mattis mi nulla, eget gravida nunc dignissim vitae. Proin nec consectetur nisl. Nunc posuere dolor ac lacus hendrerit sollicitudin. Curabitur quis eros rhoncus, placerat diam facilisis, euismod sem. Quisque ac mollis neque. Integer augue enim, posuere quis urna ac, euismod laoreet quam. Quisque ac mollis neque. Integer augue enim, posuere quis urna ac, euismod laoreet quam.</p>
+            </div>
+
+            <img class="about--me--img" src="img/abraao-photo-01.jpg" alt="a picture of Abraão smilling">
+        </section> 
+        <!--End of section: About me-->
+
+        <!-- Beginning of section: My work -->
+        <section id="work" class="my-work">
+            <h2 class="section--title section--title--work">My work</h2>
+            <p class="section--subtitle section--subtitle--work">subtitle for my work section</p>
+
+            <!-- Beggining of: portfolio view -->
+            <div class="portfolio">
+
+            <!-- Portfolio item 01 -->
+                <a href="portfolio-item.html" class="portfolio--item">
+                    <img src="img/portfolio-01.jpg" alt="portfolio image 1" class="portfolio--img">
+                </a>
+            
+            <!-- Portfolio item 02 -->
+                <a href="portfolio-item.html" class="portfolio--item">
+                    <img src="img/portfolio-02.jpg" alt="portfolio image 2" class="portfolio--img">
+                </a>
+
+            <!-- Portfolio item 03 -->
+                <a href="portfolio-item.html" class="portfolio--item">
+                    <img src="img/portfolio-03.jpg" alt="portfolio image 3" class="portfolio--img">
+                </a>
+
+            <!-- Portfolio item 04 -->
+                <a href="portfolio-item.html" class="portfolio--item">
+                    <img src="img/portfolio-04.jpg" alt="portfolio image 4" class="portfolio--img">
+                </a>
+
+            </div>
+            <!-- End of: portfolio view -->
+
+        </section>
+        <!-- End of section: My work -->
+
+        <!-- Beginning of: footer -->
+        <footer id="footer" class="footer">
+            
+            <!-- email as a link  -->
+            <a href="mailto:abraaojr1996@gmail.com" class="footer--link">abraaojr1996@gmail.com</a>
+
+            <!-- Start of: list of social media icons as links -->
+            <ul class="social--list">    
+                
+                <!-- telegram -->
+                <li class="social--list--item">
+                    <a class="social--list--link" href="https://t.me/abraao_s" target="_blank">
+                        <i class="fab fa-telegram"></i>
+                    </a>
+                </li>
+
+                <!-- twitter -->
+                <li class="social--list--item">
+                    <a href="https://twitter.com/abraao_96" class="social--list--link" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+
+                <!-- instagram -->
+                <li class="social--list--item">
+                    <a href="https://www.instagram.com/braonis.guitarra/" class="social--list--link" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+
+                <!-- github -->
+                <li class="social--list--item">
+                    <a href="http://github.com/Abraao-S" class="social--list--link" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+
+                <!-- linkedin -->
+                <li class="social--list--item">
+                    <a href="https://www.linkedin.com/in/abraao-silva-816675225/" class="social--list--link" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+
+            </ul>
+            <!-- End of: list of social media icons as links -->
+
+        </footer>
+        <!-- End of section: footer -->
+        
+        <!-- Script for the hamburger navigation menu on top -->
+        <script src="js/index.js"></script>
+
+    </body>
+</html>
