@@ -2,6 +2,7 @@
 - My first ever website! I did this following a bunch of tutorials and learned a lot during the process, and I will personalize it a little bit and use it as my personal portfolio site.
 - The whole site was made using just HTML, CSS and Javascript, no frameworks for now
 - The site is fully responsive for any screen size
+<br/>
 
 ## What I learned doing this project:
 - Structure the page to work as a single-page application;
